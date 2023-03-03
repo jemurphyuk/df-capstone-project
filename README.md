@@ -13,4 +13,10 @@
 - It is worth considering that a driver is sometimes kept for more than just driver merit, some drivers known have wealthy investors putting money into the team, often with the objective with securing the drive of a specific driver for family or brand image reasons
 - This level of data is not readily available and so this will not be studied, although I will attempt to see of there is correlation between constructor and driver nationality as sometimes this can affect keeping a driver on for team popularity in a home country
 
+## Key strategies
+- This project compares and fine tuned different modelling such as logistical regression and random forest/decision trees to find the best predictor of a driver's likely move
+- Works on the assumption that a driver and constructor not matching in consecutive years constitues a move, assigned a 1, against a 0 for a match
+- Models then trained on a selction of the data against a test set
+- Assume that drivers don't stay with a team for a single reason, however in most cases retirement, promotion, relegation and being dropped from the sport for political reasons all play a part
+
 #### Please note that the workbook may not work in the context of the current csv file location as this work was done on a different device to where it has been pushed from, this can be fixed by ensuring that the location of the running .ipynb workbook is in the same working directory as the .csv files in f1_data
